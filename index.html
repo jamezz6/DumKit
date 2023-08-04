@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" </html> <xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css">
+    
+    <title>The Drum Kit</title>
+    </head>
+    <body style="background-color:#ffe5f1">
+       <div class="container"> <div class="box box1"> <h1 id="heading">The Drum Kit</h1></div></div>
+
+       <div class="container3">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn1" name="one" value="Boom" OnClick="sound.currentTime=0, sound.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn2" name="two" value="Clap" OnClick="sound2.currentTime=0, sound2.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn3" name="three" value="Hihat" OnClick="sound3.currentTime=0, sound3.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn4" name="four" value="Kick" OnClick="sound4.currentTime=0, sound4.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn5" name="five" value="Openhat" OnClick="sound5.currentTime=0, sound5.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn6" name="six" value="Ride" OnClick="sound6.currentTime=0, sound6.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn7" name="seven" value="Snare" OnClick="sound7.currentTime=0, sound7.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn8" name="eight" value="Tink" OnClick="sound8.currentTime=0, sound8.play()">
+        <input style="height:65px; width:180px;" type="button" class="btn btn-default btn-success btn-lg btn9" name="nine" value="Tom" OnClick="sound9.currentTime=0, sound9.play()">
+        </div>
+
+
+        <div class="main">
+        <div class="container2">
+            <div class="boxA boxA1">A = Boom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S = Clap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                D = Hihat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;F = Kick&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                J = Openhat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K = Ride&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                L = Snare&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;; = Tink&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E = Tom
+
+            </div>
+        </div></div>
+
+        <script src="app.js"></script>
+    </body>
+    <footer>
+
+        <div data-key="65" class="boom">
+        </div>
+
+        <audio data-key="65"
+        src="boom.wav"></audio>
+
+        <div data-key="83" class="clap"></div>
+        <audio data-key="83"
+        src="clap.wav"></audio>
+
+        <div data-key="68" class="hihat"></div>
+        <audio data-key="68"
+        src="hihat.wav"></audio>
+
+        <div data-key="70" class="kick"></div>
+        <audio data-key="70"
+        src="kick.wav"></audio>
+
+        <div data-key="74" class="openhat"></div>
+        <audio data-key="74"
+        src="openhat.wav"></audio>
+
+        <div data-key="75" class="ride"></div>
+        <audio data-key="75"
+        src="ride.wav"></audio>
+
+        <div data-key="76" class="snare"></div>
+        <audio data-key="76"
+        src="snare.wav"></audio>
+
+        <div data-key="186" class="tink"></div>
+        <audio data-key="186"
+        src="tink.wav"></audio>
+
+        <div data-key="69" class="tom"></div>
+        <audio data-key="69"
+        src="tom.wav"></audio>
+
+    </footer>
+    </html>
